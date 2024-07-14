@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Royal Bengal Tiger",
+        "latitude": 29.54537384228059,
+        "longitude": 79.02477213551748
+    },
+    {
+        "name": "Asian Elephant",
+        "latitude": 29.513455298422638,
+        "longitude": 78.84227098834394
+    },
+    {
+        "name": "Spotted Deer",
+        "latitude": 29.573294303252695,
+        "longitude": 79.03944559458671
+    },
+    {
+        "name": "Sambar Deer",
+        "latitude": 29.52183489114081,
+        "longitude": 78.83310007216528
+    },
+    {
+        "name": "Gharial",
+        "latitude": 29.661392515406057,
+        "longitude": 78.81384115595773
+    },
+    {
+        "name": "Boar",
+        "latitude": 29.548964047589134,
+        "longitude": 79.03669432352177
+    },
+    {
+        "name": "Chital",
+        "latitude": 29.65581391850345,
+        "longitude": 78.72213203677505
+    },
+    {
+        "name": "Pangolin",
+        "latitude": 29.554149676881487,
+        "longitude": 79.00184485499906
+    },
+    {
+        "name": "Langur",
+        "latitude": 29.504675933495328,
+        "longitude": 78.86382263017263
+    },
+    {
+        "name": "Goral",
+        "latitude": 29.49749224976026,
+        "longitude": 79.0788805183458
+    },
+    {
+        "name": "Himalayan Black Bear",
+        "latitude": 29.46396165880451,
+        "longitude": 78.9862543079713
+    },
+    {
+        "name": "Indian Grey Mongoose",
+        "latitude": 29.47992999038961,
+        "longitude": 78.90600882868644
+    },
+    {
+        "name": "Leopard",
+        "latitude": 29.482325023237344,
+        "longitude": 78.86978372400361
+    },
+    {
+        "name": "Cheetah",
+        "latitude": 29.505075011648962,
+        "longitude": 78.8248462528653
+    },
+    {
+        "name": "Wolf",
+        "latitude": 29.52422893316441,
+        "longitude": 78.8019189697602
+    },
+    {
+        "name": "Bison",
+        "latitude": 29.65541543607359,
+        "longitude": 78.69599493638144
+    },
+    {
+        "name": "Nilgai",
+        "latitude": 29.45118518293622,
+        "longitude": 78.97662484762323
+    },
+    {
+        "name": "Hog Deer",
+        "latitude": 29.449588009298413,
+        "longitude": 79.01972813700552
+    },
+    {
+        "name": "Crocodile",
+        "latitude": 29.474341359353254,
+        "longitude": 79.06649978778869
+    },
+    {
+        "name": "Black Panther",
+        "latitude": 29.57568712672809,
+        "longitude": 79.06420705790727
+    },
+    {
+        "name": "Jackal",
+        "latitude": 29.627119106331918,
+        "longitude": 78.87666190623068
+    },
+    {
+        "name": "Jaguar",
+        "latitude": 29.60798469037388,
+        "longitude": 78.73909822511725
+    },
+    {
+        "name": "Sloth",
+        "latitude": 29.694459271334935,
+        "longitude": 78.77945023755764
+    },
+    {
+        "name": "Fox",
+        "latitude": 29.565716656731286,
+        "longitude": 78.81154842927158
+    },
+    {
+        "name": "Indian Hare",
+        "latitude": 29.53141072002061,
+        "longitude": 78.76982078004345
+    }
+]
