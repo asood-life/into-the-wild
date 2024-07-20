@@ -16,7 +16,7 @@
 
 <h3 id="overview">Overview</h3>
 <div>
-   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species and discover them in their habitats.
+   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application, thus developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species and discover them in their habitats.
 </div>
 
 <h3 id="implementation">Implementation</h3>
@@ -70,7 +70,7 @@
 </div>
 <br>
 <div>
-   Welcome to the Homepage! At the top-left corner, you will find a search box waiting for you. Just type in the name of any animal from the comprehensive list of 25 animals provided below. Once you have found your desired animal, simply click on it to populate the search input and proceed to click the search button.
+   Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Start typing, and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input, then click the search button to proceed.
 </div>
 <br>
 
@@ -82,7 +82,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
 <img src="./images/home-page.png"><br>
 <br>
 <div>
-   Upon clicking the search button, your desired animal joins a list located to the left of the map. Made a mistake? No problem. Use the cross button positioned next to the animal's name to remove it from the list. Once your list of animals is finalized, you are all set to embark on your exploration.
+   Upon clicking the search button, your desired animal joins a list located to the left of the map. Made a mistake? No problem. Use the cross button positioned next to the animal's name to remove it from the list.
 </div>
 <br><br>
 <img src="./images/home-page-with-list.png">
@@ -96,11 +96,18 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
 
 <h3 id="future-work">Future Work</h3>
 <ul>
-   <li><b>Waiting Queue Approach</b>: tracking the number of individuals eager to observe the wildlife and monitoring the current occupancy at specific locations is vital for preserving the ambience of these natural ecosystems.</li>
-   <li><b>Responsive Design</b>: continuing to enhance the code for responsiveness across different screen sizes and devices.</li>
-   <li><b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and efficiently dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.</li>
-   <li><b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on the user's location.</li>
-   <li><b>Dynamic Updates</b>: Exploring dynamic updates to animal locations, for ensuring seamless synchronization between the database and frontend to reflect real-time changes to the user.</li>
+   <li>
+      <b>Waiting Queue Approach</b>: tracking the number of individuals eager to observe the wildlife and monitoring the current occupancy at specific locations is vital for preserving the ambience of these natural ecosystems.
+   </li>
+   <li>
+      <b>Responsive Design</b>: continuing to enhance the code for responsiveness across different screen sizes and devices.
+   </li>
+   <li>
+      <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and efficiently dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
+   </li>
+   <li>
+      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on the user's location.
+   </li>
 </ul>
 
 <h3 id="team">Team</h3>
