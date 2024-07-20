@@ -16,15 +16,15 @@
 
 <h3 id="overview">Overview</h3>
 <div>
-   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species and discover them in their habitats.
+   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species and discover them in their natural habitats.
 </div>
 
 <h3 id="implementation">Implementation</h3>
 <div>
    I have developed a <b>responsive web application</b> leveraging <b>Vue 3</b> for the frontend in conjunction with <b>Tailwind CSS</b>. 
-   <br>
-   By designing separate Vue components for the search feature and the map, I created a reactive <code>EventBus</code> object to enable efficient data transfer between them. As a result, the selected animal from the list is communicated to the map component to update the marker's location.
-   <br>
+   <br><br>
+    I designed separate Vue components for the search box and the map. To facilitate efficient data transfer between them, I created a reactive <code>EventBus</code> object. This setup allows the selected animal from the list to be communicated to the map component, ensuring the marker's location is updated in-place.
+   <br><br>
    Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
 </div>
 <br>
@@ -66,7 +66,7 @@
 
 <h3 id="usage">Usage</h3>
 <div>
-   Please fell free to explore the website using the following link: <a href="https://into-the-wild.onrender.com/">https://into-the-wild.onrender.com</a>
+   Please feel free to explore the website using the following link: <a href="https://into-the-wild.onrender.com/">into-the-wild.onrender.com</a>
 </div>
 <br>
 <div>

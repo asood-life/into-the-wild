@@ -1,4 +1,4 @@
-# wild-ones
+# into-the-wild
 
 ## Project Setup
 ```
