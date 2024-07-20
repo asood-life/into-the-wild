@@ -25,7 +25,7 @@
    <br><br>
     I designed separate Vue components for the search box and the map. To facilitate efficient data transfer between them, I created a reactive <code>EventBus</code> object. This setup allows the selected animal from the list to be communicated to the map component, ensuring the marker's location is updated in-place on the map.
    <br><br>
-   Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
+   Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package which has been described in: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
 </div>
 
 <h3 id="installation-and-setup">Installation and Setup</h3>
@@ -85,7 +85,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
       <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on the user's location.
    </li>
    <li>
-      <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and efficiently dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
+      <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and securely dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
    </li>
 </ul>
 
