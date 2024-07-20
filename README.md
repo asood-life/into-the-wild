@@ -27,22 +27,6 @@
    <br><br>
    Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
 </div>
-<br>
-<div>
-
-   ```javascript
-   import { reactive } from 'vue';
-   // creating a reactive EventBus object
-   const EventBus = reactive({
-      data: null, // property to store the data
-
-      setData(data) { this.data = data },
-      getData() { return this.data }
-   });
-
-   export default EventBus;
-   ```
-</div>
 
 <h3 id="installation-and-setup">Installation and Setup</h3>
 <blockquote>
@@ -70,12 +54,13 @@
 <div>
    Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Start typing, and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input followed with hitting the search button to proceed to the next step.
 </div>
+<br>
 
 ```javascript
 animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar Deer", "Gharial", "Boar", "Chital", "Pangolin", "Langur", "Goral", "Himalayan Black Bear", "Indian Grey Mongoose", "Leopard", "Cheetah", "Wolf", "Bison", "Nilgai", "Hog Deer", "Crocodile", "Black Panther", "Jackal", "Jaguar", "Sloth", "Fox", "Indian Hare"]
 ```
 
-<br><br>
+<br>
 <img src="./images/home-page.png"><br>
 <br>
 <div>
@@ -97,7 +82,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
       <b>Waiting Queue Approach</b>: tracking the number of individuals eager to observe the wildlife and monitoring the current occupancy at specific locations is vital for preserving the ambience of these natural ecosystems.
    </li>
    <li>
-      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on user's location.
+      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on the user's location.
    </li>
    <li>
       <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and efficiently dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
