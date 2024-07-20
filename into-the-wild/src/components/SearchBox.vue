@@ -27,13 +27,13 @@
             </div>
         </div>
         <div id="list" class="w-full relative overflow-auto md:flex md:flex-wrap">
-            <img src="../assets/arrow.gif" class="hidden absolute bottom-0 right-0" id="down-arrow">
+            <img src="../assets/arrow.gif" class="hidden absolute top-0 right-0 w-10 h-25" id="down-arrow">
         </div>
     </div>
 </template>
 
 <script>
-import axios from 'axios';
+import animalCoordinatesList from './animalList.json';
 
 export default {
     data() {
@@ -144,11 +144,24 @@ export default {
                 svg.appendChild(path1);
                 svg.appendChild(path2);
 
+                let existingSpinnerMsg = document.querySelector('#spinnerMsg');
+                if (existingSpinnerMsg) {
+                    searchAnimal.removeChild(existingSpinnerMsg);
+                }
+
+                let spinnerMsg = document.createElement('div');
+                spinnerMsg.id = 'spinnerMsg';
+                spinnerMsg.innerHTML = "Locating : <b> " + this.currAnimal + " </b>";
+                spinnerMsg.style.marginBottom = '5rem';
+
+                searchAnimal.appendChild(spinnerMsg);
                 searchAnimal.appendChild(svg);
+                searchAnimal.style.zIndex = '10';
 
                 setTimeout(() => {
+                    searchAnimal.style.zIndex = '-100';
                     searchAnimal.style.opacity = '0';
-                }, 2000)
+                }, 1200)
 
                 this.$bus.setData(this.center);
             })
@@ -176,17 +189,7 @@ export default {
 
         // fetch list of animals and their coordinates from database
         async fetchAnimals() {
-            try {
-                // const response = await axios.get('http://localhost:3000/getAnimals');
-                const response = await axios.get('https://animal-data.onrender.com/getAnimals');
-                if (Array.isArray(response.data)) {
-                    this.animals = response.data;
-                } else {
-                    console.error("Invalid Data format received from the Server");
-                }
-            } catch (error) {
-                console.error(error);
-            }
+            this.animals = animalCoordinatesList;
         }
     },
     watch: {
