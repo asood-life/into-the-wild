@@ -29,7 +29,6 @@
 </div>
 <br>
 <div>
-   Implementation of <code>EventBus.js</code> for facilitating smooth data exchange between the Vue components
    <br><br>
 
    ```javascript
@@ -70,7 +69,7 @@
 </div>
 <br>
 <div>
-   Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Start typing, and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input followed with hitting the search button to proceed further.
+   Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Start typing, and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input followed with hitting the search button to proceed to the next step.
 </div>
 <br>
 
@@ -92,7 +91,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
 </div>
 <br><br>
 <img src="./images/locating-animal.png">
-<br><br>
+<br>
 
 <h3 id="future-work">Future Work</h3>
 <ul>
@@ -106,7 +105,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
       <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and efficiently dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
    </li>
    <li>
-      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on user's location.
+      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on user's area.
    </li>
 </ul>
 
