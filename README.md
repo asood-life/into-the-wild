@@ -11,7 +11,7 @@
 
 <h3 id="introduction">Introduction</h3>
 <div>
-   You set out for the famed Jim Corbett National Park with dreams of catching a glimpse of the majestic Royal Bengal Tiger. However, after hours of wandering through the dense jungle, disappointment settles in as not even a rustle in the bushes hints at the presence of wildlife, let alone the elusive tiger. Your much-anticipated adventure seems to have hit a roadblock. But fear not, I have a solution in hand. How about harnessing tech to track down your favorite anima. And let's not forget the visual spectacle of exploring the rich fauna that reside in these ecosystems. With Wild-Ones, your wildlife adventure transcends the boundaries of traditional exploration, offering a fusion of nature and cutting-edge innovation.
+   You set out for the famed Jim Corbett National Park with dreams of catching a glimpse of the majestic Royal Bengal Tiger. However, after hours of wandering through the dense jungle, disappointment settles in as not even a rustle in the bushes hints at the presence of wildlife, let alone the elusive tiger. Your much-anticipated adventure seems to have hit a roadblock. But fear not, I have a solution in hand. How about harnessing tech to track down your favorite anima. And let's not forget the visual spectacle of exploring the rich fauna that reside in these ecosystems.
 </div>
 
 <h3 id="overview">Overview</h3>
@@ -21,11 +21,15 @@
 
 <h3 id="implementation">Implementation</h3>
 <div>
-   I have developed a <b>responsive web application</b> leveraging <b>Vue 3</b> for the frontend in conjugation with <b>Tailwind CSS</b> for styling the layout. To facilitate seamless data transfer between Vue components, I have implemented <b>EventBus</b>. Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend. (To integrate Google Maps with Vue3, I leveraged <b>vue3-google-map</b> npm package: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>)
+   I have developed a <b>responsive web application</b> leveraging <b>Vue 3</b> for the frontend in conjunction with <b>Tailwind CSS</b>. 
+   <br>
+   By designing separate Vue components for the search feature and the map, I created a reactive <code>EventBus</code> object to enable efficient data transfer between them. As a result, the selected animal from the list is communicated to the map component to update the marker's location.
+   <br>
+   Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
 </div>
 <br>
 <div>
-   Implementation of <code>EventBus.js</code> for facilitating smooth data exchange between Components
+   Implementation of <code>EventBus.js</code> for facilitating smooth data exchange between components
    <br><br>
 
    ```javascript
@@ -69,12 +73,14 @@
    Welcome to the Homepage! At the top-left corner, you will find a search box waiting for you. Just type in the name of any animal from the comprehensive list of 25 animals provided below. Once you have found your desired animal, simply click on it to populate the search input and proceed to click the search button.
 </div>
 <br>
-<code>
-   animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar Deer", "Gharial", "Boar", "Chital", "Pangolin", "Langur", "Goral", "Himalayan Black Bear", "Indian Grey Mongoose", "Leopard", "Cheetah", "Wolf", "Bison", "Nilgai", "Hog Deer", "Crocodile", "Black Panther", "Jackal", "Jaguar", "Sloth", "Fox", "Indian Hare"]
-</code>
+
+```javascript
+animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar Deer", "Gharial", "Boar", "Chital", "Pangolin", "Langur", "Goral", "Himalayan Black Bear", "Indian Grey Mongoose", "Leopard", "Cheetah", "Wolf", "Bison", "Nilgai", "Hog Deer", "Crocodile", "Black Panther", "Jackal", "Jaguar", "Sloth", "Fox", "Indian Hare"]
+```
+
 <br><br>
 <img src="./images/home-page.png"><br>
-<br><br>
+<br>
 <div>
    Upon clicking the search button, your desired animal joins a list located to the left of the map. Made a mistake? No problem. Use the cross button positioned next to the animal's name to remove it from the list. Once your list of animals is finalized, you are all set to embark on your exploration.
 </div>
@@ -82,7 +88,7 @@
 <img src="./images/home-page-with-list.png">
 <br><br>
 <div>
-   Choose an animal from the list adjacent to the map. Upon selection, the map will locate the animal you selected on the map.
+   Choose an animal from the list. Upon selection, the map will locate the animal you selected on the map.
 </div>
 <br><br>
 <img src="./images/locating-animal.png">
