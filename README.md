@@ -11,19 +11,19 @@
 
 <h3 id="introduction">Introduction</h3>
 <div>
-   You set out for the famed Jim Corbett National Park with dreams of catching a glimpse of the majestic Royal Bengal Tiger. However, after hours of wandering through the dense jungle, disappointment settles in as not even a rustle in the bushes hints at the presence of wildlife, let alone the elusive tiger. Your much-anticipated adventure seems to have hit a roadblock. But fear not, I have a solution in hand. How about harnessing tech to track down your favorite anima. And let's not forget the visual spectacle of exploring the rich fauna that reside in these ecosystems.
+   You set out for the famed Jim Corbett National Park with dreams of catching a glimpse of the majestic Royal Bengal Tiger. However, after hours of wandering through the dense jungle, disappointment settles in as not even a rustle in the bushes hints at the presence of wildlife, let alone the elusive tiger. Your much-anticipated adventure seems to have hit a roadblock. But fear not, I have a solution in hand. How about harnessing tech to track down your favorite anima. And let's not forget the visual spectacle of exploring the rich fauna that reside in these.
 </div>
 
 <h3 id="overview">Overview</h3>
 <div>
-   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application, thus developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species and discover them in their habitats.
+   The project is a culmination of inspiration drawn from above, crafted to ensure a fulfilling experience. Explore the rich and diverse fauna inhabiting these habitats. The application, thus developed empowers users to navigate through a curated list of animals, enabling them to select their preferred species.
 </div>
 
 <h3 id="implementation">Implementation</h3>
 <div>
-   I have developed a <b>responsive web application</b> leveraging <b>Vue 3</b> for the frontend in conjunction with <b>Tailwind CSS</b>. 
+   I have developed a <b>responsive web application</b> leveraging <b>Vue 3</b> for frontend in conjunction with <b>Tailwind CSS</b>. 
    <br><br>
-    I designed separate Vue components for the search box and the map. To facilitate efficient data transfer between them, I created a reactive <code>EventBus</code> object. This setup allows the selected animal from the list to be communicated to the map component, ensuring the marker's location is updated in-place on the map.
+    I designed separate Vue components for the search box and the map. To facilitate efficient data transfer between them, I created a reactive <code>EventBus</code> object. This setup allows the selected animal from the list to be communicated to the map component, ensuring that the marker's location is updated in-place on the map.
    <br><br>
    Moreover, I have integrated Google Maps using the <b>Google Maps API</b> to the frontend utilizing <b>vue3-google-map</b> npm package which has been described in: <a href="https://www.npmjs.com/package/vue3-google-map">https://www.npmjs.com/package/vue3-google-map</a>
 </div>
@@ -35,7 +35,7 @@
 <br>
 <ul>
    <li>
-      Clone the git repo using the following command: <code>git clone https://github.com/asood-life/into-the-wild.git</code>
+      Clone the git repo using the following: <code>git clone https://github.com/asood-life/into-the-wild.git</code>
    </li>
    <li>
       Navigate to <code>into-the-wild</code> folder and install the required dependencies by running <code>npm install</code>.
@@ -52,7 +52,7 @@
 </div>
 <br>
 <div>
-   Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Start typing, and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input followed with hitting the search button to proceed to the next step.
+   Welcome to the Homepage! In the top-left corner, you will find a search box waiting for your input. Begin typing and the app will display possible selections in a dropdown menu. These selections are currently retrieved from the list of 25 animals provided below. Once you have found your desired animal, click on the entry in the dropdown to populate the search input followed with hitting the search button to proceed to the next step.
 </div>
 <br>
 
@@ -82,7 +82,7 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
       <b>Waiting Queue Approach</b>: tracking the number of individuals eager to observe the wildlife and monitoring the current occupancy at specific locations is vital for preserving the ambience of these natural ecosystems.
    </li>
    <li>
-      <b>Marker Clusters</b>: highlight the presence of nearby fauna using cluster of markers based on the user's location.
+      <b>Marker Clusters</b>: highlight the presence of fauna using cluster of markers based on the user's location.
    </li>
    <li>
       <b>Centralized Server and Fog Computing</b>: levergaing a central server to store animal locations and securely dispatch them to connected devices, resulting in a notable reduction in both latency and overhead.
@@ -102,5 +102,5 @@ animalList = ["Royal Bengal Tiger", "Asian Elephant", "Spotted Deer", "Sambar De
 </div>
 <hr>
 <div>
-    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have any enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/into-the-wild/issues">Issues</a> section. Your feedback is crucial in improving this project for all.
+    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/into-the-wild/issues">Issues</a> section. Your feedback is crucial in improving this project.
 </div>
